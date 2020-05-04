@@ -265,6 +265,7 @@ header {
 	margin-top: 65px;
 	position: relative;
 	text-align: center;
+	overflow: hidden;
 }
 .analysis-heading-img img {
 	width: 100%;
@@ -628,4 +629,217 @@ footer ul li a:hover {
 		max-width: 1700px;
 	}
 
+}
+
+@media only screen and (max-width: 1314px) {
+
+.navbar.navbar-expand-lg ul li {
+	padding-right: 12px; 
+}
+.navbar.navbar-expand-lg ul li a {
+	font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 1199px) {
+	.logo img {
+		width: 100%;
+	}
+	.navbar.navbar-expand-lg ul li a {
+		font-size: 12px;
+	}
+
+	.button-large a {
+	font-size: 12px !important;
+	padding: 7px 22px;
+	}
+
+	.navbar.navbar-expand-lg {
+		float: right;
+	}
+
+	.banner-heading h1 {
+		font-size: 46px;
+		 
+	}
+	.banner-img img {
+		width: 100%;
+	}
+	#banner {
+		height: 100%;
+	}
+	.ptc-heading h2 {
+	 
+		font-size: 28px;
+	}
+	.ptc-text li {
+		font-size: 16px;
+	}
+	.icon-box h3 {
+		font-size: 20px;
+	}
+	
+	}
+
+
+	@media only screen and (max-width: 991px) {
+		.banner-heading h1 {
+			font-size: 28px;
+		}
+		.demo {
+		font-size: 16px;  
+		padding: 15px 24px;
+		}
+		.overlay h1 {	 
+			font-size: 40px;
+		}
+		.overlay p {
+			font-size: 22px;
+		}
+		.main-header .navbar.navbar-expand-lg {
+			float: unset;
+			padding-bottom: 25px;
+		}
+		
+		.main-header .navbar-toggler {
+			position: absolute;
+			right: 0;
+			outline: 0;
+		}
+	
+	}
+
+	@media only screen and (max-width: 850px) {	.overlay h1 {
+		font-size: 30px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 767px) {	
+	.logo {
+	text-align: center;
+}
+.logo img {
+	width: 100%;
+	object-fit: cover;
+	max-width: 297px;
+	text-align: center;
+}
+
+#PTC {
+	padding: 50px 0px;
+	text-align: center;
+}
+.ptc-img img {
+	width: 100%;
+	max-width: 573px;
+	object-fit: cover;
+}
+.ptc-heading h2::after {
+	right: 0;
+	margin: 0 auto;
+}
+.ptc-text li {
+	font-size: 16px;
+	display: block;
+	padding-top: 25px;
+}
+.ptc-text li::before {
+	top: 0px;
+	right: 0;
+	margin: 0 auto;
+}
+.overlay {
+padding: 215px 30px;
+}
+#Invest .demo-btn {
+	display: block;
+	text-align: center;
+	margin: 50px 0px;
+}
+.c-t-heading h2 {
+	font-size: 24px;
+}
+.main-header .navbar.navbar-expand-lg {
+	float: unset;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.main-header .navbar-toggler {
+	position: absolute;
+	right: 0;
+	outline: 0;
+	left: 0;
+	margin: 0 auto;
+}
+.main-header .navbar.navbar-expand-lg .mr-auto, .mx-auto {
+	margin-right: auto !important;
+	padding-top: 30px;
+}
+
+}
+
+@media only screen and (max-width: 575px) {	
+
+	#banner .col-5 {
+		-ms-flex: 0 0 100.666667%;
+		flex: 0 0 100.666667%;
+		max-width: 100.666667%;
+	}
+	#banner .col-7 {
+		-ms-flex: 0 0 100.666667%;
+		flex: 0 0 100.666667%;
+		max-width: 100.666667%;
+	}
+	.banner-heading {
+		position: unset;
+		top: 0;
+		transform: unset;
+		padding: 50px 0px;
+		text-align: center;
+	}
+	#Analyst-form {
+		text-align: center;
+	}
+	.a-f-heading {
+		padding-top: 50px;
+	}
+	.a-f-heading h2::after {
+		right: 0;
+		margin: 0 auto;
+	}
+	.af-form input {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.sign-form-heading .first {
+		width: 100%;
+		margin: 0;
+		float: left;
+		margin-left: 0;
+		margin-bottom: 2%;
+	}
+	.sign-form-heading .last {
+		width: 100%;
+		float: left;
+		margin-right: 0px;
+		margin-bottom: 2%;
+	}
+}
+
+
+@media only screen and (max-width: 399px) {	
+	.overlay h1 {
+		font-size: 20px;
+	}
+
+	.overlay p {
+		font-size: 15px;
+	}
+	.foooter-first-ul {
+		text-align: left;
+	}
 }
